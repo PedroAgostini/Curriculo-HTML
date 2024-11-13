@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100..900&family=Marcellus+SC&display=swap');
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #FFFFFF;
+    --cor-tercearia: #FF6500;
+    --cor-hover: #272727;
+
+    --fonte-primaria: "Lexend Mega", sans-serif;
+    --fonte-secundaria: "Marcellus SC", serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.cabecalho{
+    padding: 1% 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.cabecalho__logo {
+    width: 40%;
+}
+
+.curriculo {
+    padding: 2% 14%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.curriculo__principal {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.curriculo__titulo {
+    font-family: var(--fonte-primaria);
+    font-size: 1.875rem;
+}
+
+.curriculo__texto {
+    font-family: var(--fonte-secundaria);
+    text-align: justify;
+    font-size: 1.5rem;
+    padding: 0 0 0 12px;
+}
+
+.curriculo__lista {
+    padding: 0 0 0 50px;
+    font-family: var(--fonte-secundaria);
+
+}
+
+.curriculo__lista__titulo {
+    font-size: 2rem;
+}
+
+.curriculo__lista__texto {
+    font-size: 1.5rem;
+    padding: 15px 0 15px 15px;
+}
+
+.curriculo__lista__experiencia {
+    font-size: 1.06rem;
+    padding: 0 0 0 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.certificado{
+    padding: 5% 14%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.certificado__titulo{
+    font-family: var(--fonte-primaria);
+    font-size: 1.875rem;
+}
+
+.rodape {
+    color: var(--cor-secundaria);
+    background-color: var(--cor-tercearia);
+    padding: 1.5%;
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    font-size: 1.06rem;
+    font-weight: 300;
+}
